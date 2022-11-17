@@ -5,6 +5,7 @@
 #ifdef MS_WINDOWS
 int
 wmain(int argc, wchar_t **argv)
+printf("Hello there good people\n");
 {
     return Py_Main(argc, argv);
 }
